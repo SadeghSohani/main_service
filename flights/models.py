@@ -4,6 +4,14 @@ class Airports(models.Model):
     city_name = models.CharField(max_length=200)
     airport_name = models.CharField(max_length=200)
 
+class Planes(models.Model):
+    plane = models.CharField(max_length=200)
+    capacity = models.IntegerField()
+
+class Carriers(models.Model) :
+    company = models.CharField(max_length=200)
+    raiting = models.IntegerField()
+
 class Flights(models.Model):
     origin_city = models.CharField(max_length=200)
     origin_airport = models.CharField(max_length=200)
