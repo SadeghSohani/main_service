@@ -16,7 +16,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -47,7 +47,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -87,7 +87,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -120,7 +120,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 16 Apr 2022 23:52:34 GMT"
+							"value": "Wed, 20 Apr 2022 21:31:26 GMT"
 						},
 						{
 							"key": "Server",
@@ -160,7 +160,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"id\": 5001,\n    \"origin_city\": \"test\",\n    \"origin_airport\": \"test\",\n    \"dest_city\": \"test\",\n    \"dest_airport\": \"test\",\n    \"datetime\": \"2021-01-01T00:00:00Z\",\n    \"price\": 200,\n    \"carrier\": \"test\",\n    \"flight_class\": \"test\",\n    \"plane_type\": \"test\",\n    \"reserved\": 0\n}"
+					"body": "{\n    \"id\": 5003,\n    \"origin_city\": \"test\",\n    \"origin_airport\": \"test\",\n    \"dest_city\": \"test\",\n    \"dest_airport\": \"test\",\n    \"datetime\": \"2021-01-01T00:00:00Z\",\n    \"price\": 200,\n    \"carrier\": \"test\",\n    \"flight_class\": \"test\",\n    \"plane_type\": \"test\",\n    \"reserved\": 0\n}"
 				}
 			]
 		},
@@ -175,7 +175,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -227,7 +227,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -272,7 +272,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 16 Apr 2022 23:01:20 GMT"
+							"value": "Wed, 20 Apr 2022 21:31:57 GMT"
 						},
 						{
 							"key": "Server",
@@ -327,7 +327,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -367,7 +367,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -400,7 +400,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 17 Apr 2022 00:43:39 GMT"
+							"value": "Wed, 20 Apr 2022 21:32:11 GMT"
 						},
 						{
 							"key": "Server",
@@ -455,14 +455,14 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"flight_id\" : 4\n}",
+					"raw": "{\n    \"flight_id\" : 3\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -495,7 +495,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -528,7 +528,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 16 Apr 2022 23:24:32 GMT"
+							"value": "Wed, 20 Apr 2022 21:32:28 GMT"
 						},
 						{
 							"key": "Server",
@@ -568,7 +568,93 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"id\": 4,\n    \"origin_city\": \"Manchester\",\n    \"origin_airport\": \"MHT\",\n    \"dest_city\": \"London\",\n    \"dest_airport\": \"LGW\",\n    \"datetime\": \"2020-03-30T21:00:00Z\",\n    \"price\": 212,\n    \"carrier\": \"EVA Air\",\n    \"flight_class\": \"A\",\n    \"plane_type\": \"Boing-747\",\n    \"reserved\": 2\n}"
+					"body": "{\n    \"id\": 4,\n    \"origin_city\": \"Manchester\",\n    \"origin_airport\": \"MHT\",\n    \"dest_city\": \"London\",\n    \"dest_airport\": \"LGW\",\n    \"datetime\": \"2020-03-30T21:00:00Z\",\n    \"price\": 212,\n    \"carrier\": \"EVA Air\",\n    \"flight_class\": \"A\",\n    \"plane_type\": \"Boing-747\",\n    \"reserved\": 7\n}"
+				},
+				{
+					"name": "localhost:8000/api/flights/reserve",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "username",
+								"value": "SadeghSohani",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"flight_id\" : 3\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/api/flights/reserve",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"flights",
+								"reserve"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Apr 2022 21:33:01 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.8.10"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"capacity of this flight is full.\"\n}"
 				}
 			]
 		},
@@ -583,7 +669,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -614,7 +700,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -638,7 +724,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 16 Apr 2022 23:23:57 GMT"
+							"value": "Wed, 20 Apr 2022 21:27:46 GMT"
 						},
 						{
 							"key": "Server",
@@ -662,7 +748,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "492"
+							"value": "742"
 						},
 						{
 							"key": "X-Content-Type-Options",
@@ -678,7 +764,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    {\n        \"id\": 1,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 2,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 3,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 4,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 5,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 6,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 7,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 8,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 9,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 10,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    }\n]"
+					"body": "[\n    {\n        \"id\": 1,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 2,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 3,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 2\n    },\n    {\n        \"id\": 4,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 5,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 6,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 7,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 8,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 9,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 10,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 3\n    },\n    {\n        \"id\": 11,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 4\n    },\n    {\n        \"id\": 12,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 4\n    },\n    {\n        \"id\": 13,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 4\n    },\n    {\n        \"id\": 14,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 4\n    },\n    {\n        \"id\": 15,\n        \"username\": \"SadeghSohani\",\n        \"flight_id\": 4\n    }\n]"
 				}
 			]
 		},
@@ -689,7 +775,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"username\" : \"Reza\",\n    \"password\" : \"123456\"\n}",
+					"raw": "{\n    \"username\" : \"Ali\",\n    \"password\" : \"123456\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -828,7 +914,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 16 Apr 2022 23:24:58 GMT"
+							"value": "Wed, 20 Apr 2022 21:27:03 GMT"
 						},
 						{
 							"key": "Server",
@@ -852,7 +938,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "103"
+							"value": "149"
 						},
 						{
 							"key": "X-Content-Type-Options",
@@ -868,7 +954,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    {\n        \"id\": 7,\n        \"username\": \"SadeghSohani\",\n        \"password\": \"123456\"\n    },\n    {\n        \"id\": 8,\n        \"username\": \"Reza\",\n        \"password\": \"123456\"\n    }\n]"
+					"body": "[\n    {\n        \"id\": 7,\n        \"username\": \"SadeghSohani\",\n        \"password\": \"123456\"\n    },\n    {\n        \"id\": 8,\n        \"username\": \"Reza\",\n        \"password\": \"123456\"\n    },\n    {\n        \"id\": 9,\n        \"username\": \"Ali\",\n        \"password\": \"123456\"\n    }\n]"
 				}
 			]
 		},
@@ -883,7 +969,7 @@
 						"type": "text"
 					},
 					{
-						"key": "tocken",
+						"key": "token",
 						"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 						"type": "text"
 					}
@@ -914,7 +1000,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19eb",
 								"type": "text"
 							}
@@ -938,7 +1024,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 17 Apr 2022 00:50:52 GMT"
+							"value": "Wed, 20 Apr 2022 21:26:22 GMT"
 						},
 						{
 							"key": "Server",
@@ -991,7 +1077,7 @@
 								"type": "text"
 							},
 							{
-								"key": "tocken",
+								"key": "token",
 								"value": "53b6b06ef254ea0cf69c5bb87d4a8ad5e38ada8d6dbb92cca9aa29bd6f4e19e",
 								"type": "text"
 							}
@@ -1015,7 +1101,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 17 Apr 2022 00:51:01 GMT"
+							"value": "Wed, 20 Apr 2022 21:26:48 GMT"
 						},
 						{
 							"key": "Server",

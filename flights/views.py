@@ -12,9 +12,9 @@ class FlightViewSet(viewsets.ViewSet) :
     def list(self, request) : # /api/flights
         #authentication with authentication_service
         username = request.headers.get("username")
-        tocken = request.headers.get("tocken")
+        token = request.headers.get("tocken")
         print(username)
-        print(tocken)
+        print(token)
         r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
         print(f'{r.json()}')
