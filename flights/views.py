@@ -15,7 +15,7 @@ class FlightViewSet(viewsets.ViewSet) :
         token = request.headers.get("tocken")
         print(username)
         print(token)
-        r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
+        r = requests.post("http://authentication:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
         print(f'{r.json()}')
         if isvalid == 1 :
@@ -30,7 +30,7 @@ class FlightViewSet(viewsets.ViewSet) :
 
     def filter(self, request) : # api/flights/filter
         #authentication with authentication_service
-        r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
+        r = requests.post("http://authentication:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
         if isvalid == 1 :
             query = f"SELECT * FROM `flights_flights`"
@@ -60,7 +60,7 @@ class FlightViewSet(viewsets.ViewSet) :
 
     def create(self, request) : # api/flights
         #authentication with authentication_service
-        r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
+        r = requests.post("http://authentication:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
         if isvalid == 1:
             serializer = FlightSerializer(data=request.data)
@@ -74,7 +74,7 @@ class FlightViewSet(viewsets.ViewSet) :
 
     def reserve_flight(self, request) :
         username = request.headers.get("username")
-        r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
+        r = requests.post("http://authentication:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
 
         if isvalid == 1 :
@@ -85,7 +85,7 @@ class FlightViewSet(viewsets.ViewSet) :
             plane_type = flight[0].plane_type
             flight_capacity = Planes.objects.raw(f"SELECT * FROM flights_planes WHERE `plane` = '{plane_type}'")[0].capacity
             if flight_reserved < flight_capacity :
-                r = requests.post("http://main_service_authentication_1:7000/api/user/reserve", json = {"username" : username, "flight_id" : flight_id}, headers=request.headers)
+                r = requests.post("http://authentication:7000/api/user/reserve", json = {"username" : username, "flight_id" : flight_id}, headers=request.headers)
                 if r.status_code==202 :
                     data = {
                         "id" :flight[0].id,
@@ -118,7 +118,7 @@ class FlightViewSet(viewsets.ViewSet) :
             })
 
     def get_planes_of_a_company(self, request):
-        r = requests.post("http://main_service_authentication_1:7000/api/user/auth", headers=request.headers)
+        r = requests.post("http://authentication:7000/api/user/auth", headers=request.headers)
         isvalid = r.json().get("isvalid")
         if isvalid == 1 :
             carrier = request.data.get("carrier")

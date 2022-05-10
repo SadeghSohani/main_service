@@ -10,6 +10,8 @@ services:
       - .:/app
     depends_on:
       - db
+    networks:
+      - main_net
       
   db:
     image: mysql:5.7.22
@@ -23,3 +25,9 @@ services:
       - .dbdata:/var/lib/mysql
     ports:
       - 33066:3306
+    networks:
+      - main_net
+
+networks:
+  main_net:
+    external: true
