@@ -7,4 +7,6 @@ https://github.com/SadeghSohani/authentication_service
 ## analyze_service
 https://github.com/alipar76/analyze_service
 ## Run all services with : 
-sudo docker-compose -p main_service up
+```
+$ sudo docker-compose up
+```
